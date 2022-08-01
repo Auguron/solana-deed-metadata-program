@@ -1,5 +1,5 @@
 ## Deed Metadata Program
-Records details about an ownership transfer of some kind, storing them
+Record details about an ownership transfer of some kind, storing them
 as on-chain account data.
 
 This serves two purposes:
@@ -10,7 +10,7 @@ programs.
 
 ### How it Works
 #### Deed Metadata Accounts
-These accounts store data that describes a transfer of ownership of some given product.
+These accounts store data that describes a transfer of ownership of some given product or property.
 They are created and managed by an authority, which is simply any signing account.
 The authority can the deed metadata account at any time to retrieve the lamports,
 and it can change certain fields on the account.
@@ -18,7 +18,7 @@ and it can change certain fields on the account.
 #### What Deed Metadata Accounts Store
 - Date of Registration -- a timestamp of when the transfer took place
 - Price -- total amount paid in exchange for transfer of ownership (in smallest integer unit of currency, e.g. cents).
-- Price Denomination -- 
+- Price Denomination -- A three-character alphabetical currency code for the price field. See ISO 4217 spec for appropriate alphabetical code https://en.wikipedia.org/wiki/ISO_4217.
 - Buyer -- A string representing the name of a buyer. Optionally an address, but the scheme does not require it.
 - Seller -- A string representing the name of a seller.
 - Property -- A string representing the name of some property. This could be anything, as long as it
