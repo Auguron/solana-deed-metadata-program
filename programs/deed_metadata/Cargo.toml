@@ -9,11 +9,13 @@ crate-type = ["cdylib", "lib"]
 name = "deed_metadata"
 
 [features]
+default = ["localnet"]
+localnet = []
+devnet = []
 no-entrypoint = []
 no-idl = []
 no-log-ix-name = []
 cpi = ["no-entrypoint"]
-default = []
 
 [dependencies]
 anchor-lang = "0.25.0"

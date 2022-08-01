@@ -2,11 +2,13 @@
 
 use anchor_lang::prelude::*;
 use anchor_lang::AccountsClose;
-use anchor_lang::solana_program::system_program;
 use anchor_lang::solana_program::pubkey::Pubkey;
 use anchor_lang::solana_program::hash::hash;
 
+#[cfg(all(feature="localnet", not(feature="devnet")))]
 declare_id!("HAcjmTqRVugqXdgyMkNyK5Kt4JsTDwn1dMKTbQSJ4i4K");
+#[cfg(feature="devnet")]
+declare_id!("2HmM8vYbW6nZ25nesvGbmJoVvVaaWJdSWsp58LSo3rHd");
 
 #[program]
 pub mod deed_metadata {
