@@ -1,5 +1,5 @@
 [package]
-name = "deed_metadata"
+name = "deed-metadata"
 version = "0.1.0"
 description = "Created by Auguron Systems Inc."
 edition = "2021"

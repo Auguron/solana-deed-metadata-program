@@ -59,7 +59,7 @@ For trustworthy agents, this is a cheap and powerful way to publish open-access 
 and allow others the possibility of building systems on top of that information.
 
 ### Developer Notes
-This program is built using the Anchor Framework. If you're not familiar, a good place to start is [here](https://book.anchor-lang.com/getting_started/installation.html)
+This program is built using the Anchor Framework. If you're not familiar, a good place to start is [here](https://book.anchor-lang.com/getting_started/installation.html).
 
 #### Instructions
 See the source code or IDL for more detailed description of instruction schemas, but here is a brief
