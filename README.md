@@ -12,7 +12,7 @@ programs.
 #### Deed Metadata Accounts
 These accounts store data that describes a transfer of ownership of some given product or property.
 They are created and managed by an authority, which is simply any signing account.
-The authority can the deed metadata account at any time to retrieve the lamports,
+The authority can close the deed metadata account at any time to retrieve the lamports,
 and it can change certain fields on the account.
 
 #### What Deed Metadata Accounts Store
